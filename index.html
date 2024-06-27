@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoungbin Cho's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome!!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <section id="home">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="./images/IMG_2792.jpg" alt="Logo or Personal Image" style="width: 300px; height: auto;">
+            </div>
+            <div class="home-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm Kyoungbin Cho, a undergrad Computer Science student at the University of Illinois at Urbana Champaign passionate about technology and innovation. Welcome to my personal website where I showcase my projects and skills.
+                    If you go down, you can see my portfolio and my resume.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <h3>Project 1: Web Scraping for Jazz Musicians</h3>
+            <p>This project involves scraping the web for data about jazz musicians and presenting the data in a structured format. It's built using Python and BeautifulSoup.</p>
+            <a href="https://github.com/kcho2027/Modal-and-Nodal" title="Go to GitRepo">Visit GitRepo</a>
+
+        </div>
+        <div>
+            <h3>Project 2: Soccer Match Prediction Model</h3>
+            <p>A predictive model that uses historical data to predict the outcomes of soccer matches. The model was developed using Python and scikit-learn.</p>
+            <a href="https://github.com/CS196Illinois/Group12-FA23" title="Go to GitRepo">Visit GitRepo</a>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my full resume <a href="./images/Kyoungbin Cho_Resume.pdf" target="_blank">here</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com">LinkedIn</a> and <a href="https://github.com">GitHub</a>.</p>
+    </footer>
+</body>
+</html>
